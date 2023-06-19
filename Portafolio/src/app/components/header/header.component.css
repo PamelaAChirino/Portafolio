@@ -1,0 +1,100 @@
+.header-top {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(19, 116, 106, 0.8) 0%, rgba(185, 255, 248, 0.64) 100%);
+    /* background-image: url(../../../assets/img/fondo.png); ; */
+
+    .card {
+        box-sizing: border-box;
+        width: 380px;
+        height: 126px;
+        border: 3px solid #FFF9F9;
+        border-radius: 5px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -63px;
+        margin-left: -190px;
+
+        .text-name {
+            position: absolute;
+            width: 340px;
+            height: 68px;
+            left: 50%;
+            margin-left: -170px;
+            /* top: 8px; */
+            /* text-align: center; */
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 50px;
+            line-height: 68px;
+            color: #FFFDFD;
+        }
+
+        .text-descripcion {
+            position: absolute;
+            width: 212px;
+            height: 34px;
+            left: 50%;
+            margin-left: -106px;
+            top: 72px;
+            text-align: center;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 34px;
+            color: #FFFDFD;
+
+        }
+    }
+
+
+}
+
+.photo {
+    position: absolute;
+    width: 143px;
+    height: 147px;
+    left: 50%;
+    margin-left: -71px;
+    top: 526px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 285px;
+    height: 22px;
+    left: 80%;
+    top: 25px;
+
+    .menu-text {
+        width: 75px;
+        height: 22px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFCFC;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}

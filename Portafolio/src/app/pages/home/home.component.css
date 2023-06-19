@@ -1,0 +1,45 @@
+.home {
+    position: absolute;
+    width: 100%;
+    height: 2459px;
+
+    background: #FFFFFF;
+}
+
+.text-descripcion {
+    position: absolute;
+    width: 830px;
+    height: 125px;
+    /* left: 305px; */
+    top: 781px;
+    left: 50%;
+    margin-left: -415px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #5A5A5A;
+}
+
+.title-descripcion {
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    left: 50%;
+    top: 703px;
+    margin-left: -77px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #FF9551;
+}
