@@ -1,3 +1,7 @@
+@import url(../../../fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/fontawesome.css);
+@import url(../../../fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/brands.css);
+
+
 .footer {
     position: absolute;
     width: 100%;
@@ -8,6 +12,7 @@
     background: #3C6C6C;
 }
 
+
 .container-apps {
     position: absolute;
     width: 475px;
@@ -16,7 +21,7 @@
     margin-left: -267px;
     top: 50%;
     margin-top: -30px;
-    background-color: aqua;
+    
 
 }
 
@@ -50,4 +55,5 @@
 
     background: #0077B5;
     border-radius: 5px;
+    margin-left: 125px;
 }
