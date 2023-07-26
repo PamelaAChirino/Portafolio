@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./works.component.css']
 })
 export class WorksComponent {
+  public dataWorks=[
+    {
+      title: "Hola",
+      descripcion:"Prueba 1",
+      position:"one"
+    },
+    {
+      title: "Hola",
+      descripcion:"Prueba 2",
+      position:"two"
+    },
+    // {
+    //   title: "Hola",
+    //   descripcion:"Prueba 3"
+    // },
+    // {
+    //   title: "Hola",
+    //   descripcion:"Prueba 4"
+    // }
+
+  ]
 
 }
