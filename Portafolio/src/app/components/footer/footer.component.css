@@ -57,3 +57,19 @@
     border-radius: 5px;
     margin-left: 125px;
 }
+a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0px;
+}
+.github:hover{
+    background-color: #4078c0;
+}
+.linklin:hover{
+    background-color: #0a66c2;
+}
