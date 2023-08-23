@@ -1,0 +1,23 @@
+.thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.descripcion{
+    text-align: center;
+
+}
+.descripcion .nombre{
+    font-weight: 700;
+    color: #FF9551;
+    margin-bottom: 10px;
+}
+.descripcion .categoria{
+    font-size: 14px;
+    color: #636363;
+}
+
